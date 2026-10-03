@@ -1,7 +1,7 @@
 # Cross-Model Validation — Phase 2
 
 三模型（deepseek-chat / glm-5.2 / glm-5.3-flash）、同 pack（哈希锁定）、
-同问题、同生产 prompt 构造器、temperature 0，共 70 条唯一实验记录。
+同问题、同生产 prompt 构造器、temperature 0，共 70 条去重后的实验记录。
 
 - `summary.md` — 完整结果矩阵与 GT 修正记录
 - `matrix.json` — 机器可读矩阵

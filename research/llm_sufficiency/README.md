@@ -28,7 +28,7 @@ Evidence passed verification and entered the Evidence Pack
 The LLM still abstained: "evidence insufficient"
 ```
 
-In a 45-question real-use evaluation, **14 of 15 abstentions occurred while the supporting evidence was verifiably present in the Evidence Pack**. This shifted the research question from *"does the evidence exist?"* to a question that cannot be explained by retrieval quality alone:
+In the initial 45-question real-use evaluation, **14 of the 15 abstentions occurred while the supporting evidence was verifiably present in the Evidence Pack**. This shifted the research question from *"does the evidence exist?"* to a question that cannot be explained by retrieval quality alone:
 
 > **How does an LLM decide whether available evidence is *sufficient*?**
 
@@ -36,11 +36,11 @@ In a 45-question real-use evaluation, **14 of 15 abstentions occurred while the 
 
 Consider a product datasheet that states:
 
-> *Kit A: store at 15–25°C*  &nbsp;&nbsp; *Kit B: store at –30 to –15°C*
+> *DC201: store at 15–25°C*  &nbsp;&nbsp; *C216: store at –30 to –15°C*
 
-Now ask: **"What is the difference between the storage temperatures of Kit A and Kit B?"**
+Now ask: **"What is the difference between the storage temperatures of DC201 and C216?"**
 
-Both facts are present, verified, and in the evidence pack. But the document never *literally* writes "the difference is X". The answer requires **assembly** — a legitimate comparison of two individually stated facts.
+Both facts are present, verified, and in the evidence pack (they come from two different product datasheets — the real case B11 in this study). But neither document ever *literally* writes "the difference is X". The answer requires **assembly** — a legitimate comparison of two individually stated facts.
 
 We observed that in such situations, one tested model's own abstention reason acknowledged the evidence was present while still requiring a "direct" statement:
 

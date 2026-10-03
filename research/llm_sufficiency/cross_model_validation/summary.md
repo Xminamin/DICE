@@ -5,7 +5,7 @@
 输入恒定：同 pack（hash 锁定）+ 同问题 + 生产 prompt 构造器 + temperature=0。
 
 ## 1. 实验完整性
-A 26 行（21 复用 Phase1 + 4 补齐 B11 重复）/ B 22 / C 22 = 70 条记录，
+A 26 行（21 复用 Phase1 + 4 补齐 B11 重复）/ B 22 / C 22 = 70 条去重后的实验记录，
 raw 全量存档 cross_model_raw_outputs.jsonl；中途一次凭证注入问题已在最终运行前修正（An initial credential-injection issue was corrected before the final run），重跑后数据完整。
 
 ## 2-3. Pack/Prompt hash 一致性

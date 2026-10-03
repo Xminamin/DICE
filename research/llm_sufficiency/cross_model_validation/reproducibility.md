@@ -8,7 +8,7 @@
   （pack hash 见 matrix.json）；prompt 由单一模板生成（生产构造器逐字复刻），
   三模型 prompt_hash 一致。
 - **数据规模**：A=deepseek-chat 26 条（21 条复用 Phase 1 + 4 条 B11 重复补齐）、
-  B=glm-5.2 22 条、C=glm-5.3-flash 22 条，共 70 条唯一记录。
+  B=glm-5.2 22 条、C=glm-5.3-flash 22 条，共 70 条去重后的实验记录。
 - **去重**：以 (model, case, condition, repeat, label, raw 前 80 字符) 为键去重。
 - **GT 修正**：A14-NEGATIVE 重判 GT_SUFFICIENT（组装型）；B11-NEGATIVE 降 BOUNDARY
   ——详见 README "Ground-truth corrections" 节。

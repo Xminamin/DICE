@@ -95,8 +95,10 @@
  },
  "calls": {
   "A": "21 reused(Phase1) + 4 new top-up",
-  "B_new": 21,
-  "C_new": 22
+  "B_new": 22,
+  "C_new": 22,
+  "_note": "A: 21 Phase-1 reused + 4 B11 top-up = 26; B: 22; C: 22; total 70 deduplicated"
  },
- "limitations": "B/C 同为 GLM 家族不同版本（kimi/deepseek-v4 网关无权限）；N 小"
+ "limitations": "B/C 同为 GLM 家族不同版本（kimi/deepseek-v4 网关无权限）；N 小",
+ "records": "70 deduplicated experimental records"
 }

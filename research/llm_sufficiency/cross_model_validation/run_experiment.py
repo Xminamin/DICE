@@ -5,7 +5,10 @@ Cross-Model Validation runner — public, self-contained reproduction script.
 Reproduces the Assembly Standard Probe across models with a FIXED evidence
 pack, FIXED questions, and a FIXED sufficiency prompt per case.
 
-This script is a cleaned re-packaging of the internal research runner:
+This script is a public reproduction scaffold packaged from the internal
+research runner. It reproduces the experiment STRUCTURE and FLOW using the
+disclosed (truncated) evidence excerpts; it does NOT guarantee per-record
+reproduction of the original model outputs:
   - no private modules, no local absolute paths, no keychain access
   - API credentials are injected via environment variables
   - evidence packs are rebuilt deterministically from the bundled
@@ -142,13 +145,34 @@ def _h(x):
         .hexdigest()[:16]
 
 
+def pack_content_hash(evs):
+    """Content-based Evidence Pack hash for the public reproduction scaffold.
+
+    Hashes the canonical JSON of the full evidence list — each entry contains
+    evidence_id, document_id, page, and text, in stable order — so any change
+    to evidence content changes the hash. This is the PUBLIC scaffold hash;
+    the original internal runs recorded an ID-sequence hash (see
+    raw_outputs.jsonl evidence_pack_hash fields), which is preserved as-is
+    in the released data.
+    """
+    canonical = [
+        {"evidence_id": e["evidence_id"], "document_id": e["document_id"],
+         "page": e["page"], "text": e["text"]}
+        for e in evs
+    ]
+    blob = json.dumps(canonical, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(blob.encode("utf-8")).hexdigest()[:16]
+
+
 def load_packs():
     # NOTE: public evidence_export.json contains truncated excerpts (<=300 chars,
     # minimum-disclosure); original runs used full texts from source documents.
     exp = json.loads((HERE / "evidence_export.json").read_text())
     packs = {}
     for case, evs in exp.items():
-        pack_hash = _h([e["evidence_id"] for e in evs])
+        if case.startswith("_"):
+            continue    # metadata keys (e.g. _disclosure_note)
+        pack_hash = pack_content_hash(evs)
         packs[case] = {"evidence": evs, "pack_hash": pack_hash}
     return packs
 

@@ -7,7 +7,7 @@
 - `matrix.json` — 机器可读矩阵
 - `raw_outputs.jsonl` — 70 条原始模型输出（已脱敏检查）
 - `evidence_export.json` — 冻结 Evidence Pack（复现用）
-- `run_experiment.py` — 自包含复现脚本（密钥经环境变量注入）
+- `run_experiment.py` — 公开复现脚手架（基于已披露的截断证据摘录；密钥经环境变量注入；不保证逐条复现原始输出）
 - `reproducibility.md` — 可复现性细节与已知限制
 
 关键限制：Model-B/C 同属 GLM 家族（原计划 Kimi/DeepSeek-v4 网关无权限），

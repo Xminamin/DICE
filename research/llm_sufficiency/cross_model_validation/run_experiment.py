@@ -81,9 +81,12 @@ VARIANTS = {
                 "it compare to LLaMA's training data scale?",
    "NEGATIVE":  "How many GPUs were used to train each of BERT and LLaMA?"},
 }
-GT = {"DIRECT": "GT_SUFFICIENT", "ASSEMBLY": "GT_SUFFICIENT",
-      "MIXED": "GT_SUFFICIENT", "NEGATIVE": "GT_INSUFFICIENT"}
-# GT corrections discovered during the study (see README §GT corrections)
+# FINAL_GT documents the human-established ground truth for reference only.
+# Ground truth is documented in matrix.json and is NOT used to construct or
+# influence model prompts — the runner never passes GT to any model call.
+FINAL_GT = {"DIRECT": "GT_SUFFICIENT", "ASSEMBLY": "GT_SUFFICIENT",
+            "MIXED": "GT_SUFFICIENT", "NEGATIVE": "GT_INSUFFICIENT"}
+# GT corrections discovered during the study (see README §Ground-truth corrections)
 GT_CORRECTIONS = {
     ("B11", "NEGATIVE"): "BOUNDARY",          # component-level duration in pack
     ("A14", "NEGATIVE"): "GT_SUFFICIENT",     # GPU/TPU evidence present (assembly)
@@ -140,6 +143,8 @@ def _h(x):
 
 
 def load_packs():
+    # NOTE: public evidence_export.json contains truncated excerpts (<=300 chars,
+    # minimum-disclosure); original runs used full texts from source documents.
     exp = json.loads((HERE / "evidence_export.json").read_text())
     packs = {}
     for case, evs in exp.items():

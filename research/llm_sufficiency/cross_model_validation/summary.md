@@ -6,8 +6,7 @@
 
 ## 1. 实验完整性
 A 26 行（21 复用 Phase1 + 4 补齐 B11 重复）/ B 22 / C 22 = 70 条记录，
-raw 全量存档 cross_model_raw_outputs.jsonl；中途 401 事故（key 引用未展开）已由
-keychain 直取修复，重跑后数据完整。
+raw 全量存档 cross_model_raw_outputs.jsonl；中途一次凭证注入问题已在最终运行前修正（An initial credential-injection issue was corrected before the final run），重跑后数据完整。
 
 ## 2-3. Pack/Prompt hash 一致性
 每 case 的 evidence_pack_hash 三模型完全一致（同表构建）；prompt 由生产
@@ -43,7 +42,7 @@ D. 同输入翻转：**仅 Model-A**（B11-ASSEMBLY S/I/I、补齐后 B11-MIXED 
 
 ## 7. Assembly Aversion 是否跨模型出现
 **NOT_SUPPORTED（本样本）**——A09/A14/B11 的厌恶与不稳定在 glm-5.2/5.3-flash 上
-零复现；组装厌恶是 Model-A（deepseek-chat）特有行为，非任务必然。
+零复现。Assembly Aversion 在 deepseek-chat 中被观察到，但在相同实验条件下测试的两个 GLM 系列模型（glm-5.2、glm-5.3-flash）中未被复现。CROSS_FAMILY_GENERALIZATION = NOT_ESTABLISHED。
 限制：B/C 同家族；N 小；仅 OBSERVED 级。
 
 ## 8. False Sufficiency

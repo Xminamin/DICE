@@ -26,7 +26,7 @@ Evidence passed verification and entered the Evidence Pack
 The LLM still abstained: "evidence insufficient"
 ```
 
-In a 45-question real-use evaluation, **14 of 15 abstentions occurred while the supporting evidence was verifiably present in the Evidence Pack**. This shifted the research question from *"does the evidence exist?"* to something the retrieval literature answers poorly:
+In a 45-question real-use evaluation, **14 of 15 abstentions occurred while the supporting evidence was verifiably present in the Evidence Pack**. This shifted the research question from *"does the evidence exist?"* to a question that cannot be explained by retrieval quality alone:
 
 > **How does an LLM decide whether available evidence is *sufficient* to answer a question?**
 
@@ -60,6 +60,14 @@ For one case (B11), the same question with the same pack flipped SUFFICIENT ↔ 
 
 ### Finding 4 — One table-cell-level false sufficiency in glm-5.3-flash
 On the C07 negative control, `glm-5.3-flash` judged the evidence SUFFICIENT while citing a table-cell value ("Binding Plate — corresponding value") **that does not exist in the evidence**. Status: **OBSERVED_ONCE / NOT_GENERALIZED**. One false-sufficiency observation involving an unsupported table-cell value was observed in the tested C07 condition.
+
+## What this artifact contributes
+
+1. **A concrete failure mode**: evidence is present and verified, but a model may still judge assembled evidence as insufficient.
+2. **A controlled experimental design**: fixed Evidence Packs allow comparison between DIRECT / ASSEMBLY / MIXED / NEGATIVE conditions.
+3. **A reusable research artifact**: released cases, outputs, hashes and runner provide a starting point for additional model testing and future benchmark design.
+
+This release does not claim a universal theory of LLM evidence sufficiency.
 
 ## Experimental overview
 

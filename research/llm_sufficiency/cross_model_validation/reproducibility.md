@@ -1,11 +1,24 @@
-# Cross-Model Reproducibility Notes
-- 可复现入口：cross_model.py（dry-run/run [A|B|C]）；pack/prompt/问题全部来自
-  Phase1 probe 模块导入（无重定义）；网关 key 经 macOS keychain（codex-qianfan-token-plan）。
-- 复用规则：Model-A 优先匹配 Phase1 同 (case,variant,rep) 行；本轮补齐的 4 次
-  B11 DIRECT/MIXED 重复为新调用（已标 non-reused）。
-- 已修复的工程事故（如实记录）：①初版从代理脚本读 key 得到 "$(security…)"
-  未展开字符串 → 401，改为 keychain 直取；②reused 行首次未落盘 → 合并重建；
-  ③一次中途 crash 把 raw 写成 JSON 数组 → 格式兼容读取并重写为标准 jsonl + 去重。
-  最终文件 70 行、(model,case,condition,repeat,label,raw前80字符) 唯一。
-- 已知偏差源：Model-A 数据跨两个日期（Phase1 前日 + 本轮补齐）；B 的 B11-NEGATIVE
-  存在 1 次重复运行（去重保留首条，结果一致均为 I）。
+# Cross-Model Reproducibility Notes（公开版）
+
+- 复现入口：`run_experiment.py`（`--dry-run` / `--models A B C`）；
+  Evidence Pack 与问题全部内嵌于本目录（`evidence_export.json` + 脚本常量），
+  与已发布研究使用完全相同的固定输入。Credentials are supplied through
+  environment variables（`LLM_API_KEY_A/B/C`，见脚本头注释）。
+- **实验条件**：temperature=0；同一 case 的四个条件共享同一 Evidence Pack
+  （pack hash 见 matrix.json）；prompt 由单一模板生成（生产构造器逐字复刻），
+  三模型 prompt_hash 一致。
+- **数据规模**：A=deepseek-chat 26 条（21 条复用 Phase 1 + 4 条 B11 重复补齐）、
+  B=glm-5.2 22 条、C=glm-5.3-flash 22 条，共 70 条唯一记录。
+- **去重**：以 (model, case, condition, repeat, label, raw 前 80 字符) 为键去重。
+- **GT 修正**：A14-NEGATIVE 重判 GT_SUFFICIENT（组装型）；B11-NEGATIVE 降 BOUNDARY
+  ——详见 README "Ground-truth corrections" 节。
+- **Raw 输出**：`raw_outputs.jsonl` 全量 70 条（含模型拒答理由原文），未修改模型
+  输出正文。
+- **已知限制**：B/C 同属 GLM 家族（原计划异家族模型网关不可用），跨家族泛化
+  NOT_ESTABLISHED；N 小；Model-A 数据跨两个日期采集。
+- **过程说明（不涉及内部实现细节）**：An initial credential-injection issue
+  was corrected before the final run; a data-merge step was re-run to produce
+  the deduplicated 70-record file.
+- **Evidence 披露**：The public artifact contains only the minimum evidence
+  excerpts required for the released experiment; original source documents
+  (academic papers and commercial datasheets) are not redistributed.

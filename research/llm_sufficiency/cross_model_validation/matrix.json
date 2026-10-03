@@ -1,0 +1,104 @@
+{
+ "models": {
+  "A": "deepseek-chat",
+  "B": "glm-5.2",
+  "C": "glm-5.3-flash"
+ },
+ "legend": "S=SUFFICIENT I=INSUFFICIENT (n); S/I=mixed across repeats",
+ "matrix": {
+  "A": {
+   "B11": {
+    "DIRECT": "S(3)",
+    "ASSEMBLY": "S/I(3)",
+    "MIXED": "S/I(3)",
+    "NEGATIVE": "I(1)"
+   },
+   "A09": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "I(3)",
+    "MIXED": "I(1)",
+    "NEGATIVE": "I(1)"
+   },
+   "C07": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "S(3)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "I(1)"
+   },
+   "A14": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "I(1)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "I(1)"
+   }
+  },
+  "B": {
+   "B11": {
+    "DIRECT": "S(3)",
+    "ASSEMBLY": "S(3)",
+    "MIXED": "S(3)",
+    "NEGATIVE": "I(1)"
+   },
+   "A09": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "S(1)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "I(1)"
+   },
+   "C07": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "S(1)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "I(1)"
+   },
+   "A14": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "S(1)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "S(1)"
+   }
+  },
+  "C": {
+   "B11": {
+    "DIRECT": "S(3)",
+    "ASSEMBLY": "S(3)",
+    "MIXED": "S(3)",
+    "NEGATIVE": "I(1)"
+   },
+   "A09": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "S(1)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "I(1)"
+   },
+   "C07": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "S(1)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "S(1)"
+   },
+   "A14": {
+    "DIRECT": "S(1)",
+    "ASSEMBLY": "S(1)",
+    "MIXED": "S(1)",
+    "NEGATIVE": "S(1)"
+   }
+  }
+ },
+ "gt_revisions": {
+  "A14-NEGATIVE": "GT_INVALID→GT_SUFFICIENT(组装型)：pack 实含 BERT-TPU 与 LLaMA-GPU 证据，glm 两模型组装出正确答案",
+  "B11-NEGATIVE": "GT 降 BOUNDARY：pack 含组分级 'stably stored' 时长",
+  "有效负控制": [
+   "A09-NEGATIVE",
+   "C07-NEGATIVE"
+  ]
+ },
+ "calls": {
+  "A": "21 reused(Phase1) + 4 new top-up",
+  "B_new": 22,
+  "C_new": 22,
+  "_note": "A: 21 Phase-1 reused + 4 B11 top-up = 26; B: 22; C: 22; total 70 deduplicated"
+ },
+ "limitations": "B/C 同为 GLM 家族不同版本（kimi/deepseek-v4 网关无权限）；N 小",
+ "records": "70 deduplicated experimental records"
+}

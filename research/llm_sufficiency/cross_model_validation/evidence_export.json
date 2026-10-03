@@ -1,0 +1,397 @@
+{
+ "B11": [
+  {
+   "evidence_id": "986ac1908066",
+   "document_id": "dc201",
+   "page": 4,
+   "text": "06/Notes\nBefore use, add the entire volume of RNase A Solution provided in the kit to Buffer AP1.\nMix thoroughly and store at 2 ~ 8°C. The solution can be stably stored for up to\n6 months.\nBuffer AP2 may precipitate at low temperatures. Check for any crystal formation before\nuse. If crystals are …[truncated for minimum disclosure]",
+   "text_full_length": 2265
+  },
+  {
+   "evidence_id": "b3caa6b765be",
+   "document_id": "dc201",
+   "page": 6,
+   "text": "08/FAQ & Troubleshooting\nProblem\nSolution\nCause\nDifferences in copy number can cause significant variations in \nplasmid yield. For low-copy plasmids (SuperCos, pWE15, \npBR322, pACYC and its derivatives, pSC101 and its derivatives) \nor plasmids with large inserts (>10 kb), use higher volumes of …[truncated for minimum disclosure]",
+   "text_full_length": 2585
+  },
+  {
+   "evidence_id": "e916c4cbbeab",
+   "document_id": "dc201",
+   "page": 4,
+   "text": "Wear latex gloves when handling\nthe buffers and tighten the bottle caps immediately after use. All procedures should be performed at room temperature. 07/Experiment Process\n07-1/Pre-Experiment Preparation\nBuffer AP2 may precipitate at low temperatures (≤20°C)."
+  },
+  {
+   "evidence_id": "1e80ef8052bb",
+   "document_id": "dc201",
+   "page": 4,
+   "text": "When the room temperature is\nlower than 20°C, incubate the buffer at 37°C for 10 min until the crystals are completely\ndissolved. Cool to room temperature and mix thoroughly before use."
+  },
+  {
+   "evidence_id": "1fd73a9a31ac",
+   "document_id": "dc201",
+   "page": 6,
+   "text": "Buffer AP2 will precipitate at low temperatures or \nafter prolonged storage. Prior to use, redissolve any precipitate \nby warming or place the buffer in a 37°C incubator for 10 min until \nthe solution becomes clear. 6."
+  },
+  {
+   "evidence_id": "3c2f7f4c2b5a",
+   "document_id": "dc201",
+   "page": 3,
+   "text": "02/Components\nComponents\nDC201-C1\n(1 × 96 T)\nRNase A Solution \nBuffer AP1\nBuffer AP2\nBuffer AP3\nBinding Plate\nBeads Plate\nWash 1 Plate\nWash 2 Plate\nElution Plate\n750 μl\n28 ml\n28 ml\n28 ml\n1\n1\n1\n2\n1\nRNase A Solution: Remove RNA\nBuffer AP1: Suspend bacteria\nBuffer AP2: Lyse bacteria\nBuffer AP3: …[truncated for minimum disclosure]",
+   "text_full_length": 363
+  },
+  {
+   "evidence_id": "b95598434713",
+   "document_id": "dc201",
+   "page": 3,
+   "text": "01/Product Description\nVAMNE Magnetic EndoFree Plasmid Mini Kit is designed for the extraction of plasmid DNA from\n1 - 5 ml of overnight bacterial cultures. It employs an optimized alkaline lysis method to efficiently\nlyse cells, followed by purification using uniquely embedded superparamagnetic, …[truncated for minimum disclosure]",
+   "text_full_length": 1425
+  },
+  {
+   "evidence_id": "fae4b7ce0d9c",
+   "document_id": "dc201",
+   "page": 5,
+   "text": "Add 250 μl Buffer AP3 and immediately invert the tube gently 15 - 20 times until the blue color\ncompletely disappears. At this time, white flocculent precipitates should form. Centrifuge at\n12,000 rpm (13,400 × g) for 5 min.\n▲After adding Buffer AP3, gently invert the tube immediately to mix …[truncated for minimum disclosure]",
+   "text_full_length": 1847
+  },
+  {
+   "evidence_id": "821830df51b5",
+   "document_id": "c216",
+   "page": 4,
+   "text": "Use two pairs of primers for cross amplification of AF"
+  },
+  {
+   "evidence_id": "4bf10823205d",
+   "document_id": "c216",
+   "page": 7,
+   "text": "Recommended PCR conditions:\nSteps\nTemperature"
+  },
+  {
+   "evidence_id": "72f45a5aec00",
+   "document_id": "c216",
+   "page": 11,
+   "text": "④ Low-quality template plasmid: Long-term storage and repeated freeze-thaw cycles may cause\nbreakage, nicking, or degradation of template plasmids. Therefore, use freshly prepared pla-\nsmids as the template."
+  },
+  {
+   "evidence_id": "1e1eb6158d43",
+   "document_id": "c216",
+   "page": 11,
+   "text": "① Primer Design Guidance is incorrect: Check the primer design guidance.\n② Incorrectly prepared amplification system: Repeat the experiment.\n③ Inappropriate amplification reaction conditions: Adjust the amplification program.\n④ Low-quality template plasmid: Long-term storage and repeated …[truncated for minimum disclosure]",
+   "text_full_length": 2627
+  },
+  {
+   "evidence_id": "8d73aa1f96cf",
+   "document_id": "c216",
+   "page": 2,
+   "text": "02\n01/Product Description\n02/Components\n03/Storage\n..............................................................................................."
+  },
+  {
+   "evidence_id": "2b01dc0c1ef7",
+   "document_id": "c216",
+   "page": 2,
+   "text": ".................................................................................. 02\n.............................................................................................. 02\n...................................................................................................... …[truncated for minimum disclosure]",
+   "text_full_length": 1690
+  },
+  {
+   "evidence_id": "e453a79c8b63",
+   "document_id": "c216",
+   "page": 3,
+   "text": "02/Components\nComponents \nC216-02\n(20 rxns)\nC216-01\n(10 rxns)\n1.25 ml\n50 μl\n50 μl\n2 × 1.25 ml\n100 μl\n100 μl\n2 × Phanta Flash Master Mix\nDpn I (10 U/μl)\n2 × CE Mix V3\n03/Storage\nStore at -30 ~ -15°C and ship at ≤0°C."
+  }
+ ],
+ "A09": [
+  {
+   "evidence_id": "2cfdef107901",
+   "document_id": "t5",
+   "page": 39,
+   "text": "GLUE\nCoLA\nSST-2\nMRPC\nMRPC\nSTS-B\nSTS-B\nModel\nAverage\nMatthew’s\nAccuracy\nF1\nAccuracy\nPearson\nSpearman\nPrevious …[truncated for minimum disclosure]",
+   "text_full_length": 1887
+  },
+  {
+   "evidence_id": "a524fcc99e30",
+   "document_id": "bert",
+   "page": 6,
+   "text": "System\nMNLI-(m/mm)\nQQP\nQNLI\nSST-2\nCoLA\nSTS-B\nMRPC\nRTE\nAverage\n392k\n363k\n108k\n67k\n8.5k\n5.7k\n3.5k\n2.5k\n-\nPre-OpenAI SOTA\n80.6/80.1\n66.1\n82.3\n93.2\n35.0\n81.0\n86.0\n61.7\n74.0\nBiLSTM+ELMo+Attn\n76.4/76.1\n64.8\n79.8\n90.4\n36.0\n73.3\n84.9\n56.8\n71.0\nOpenAI …[truncated for minimum disclosure]",
+   "text_full_length": 4444
+  },
+  {
+   "evidence_id": "7d1c06b053ac",
+   "document_id": "bert",
+   "page": 3,
+   "text": "Unlabeled Sentence A and B Pair\nPre-training\nFine-Tuning\nFigure 1: Overall pre-training and ﬁne-tuning procedures for BERT. Apart from output layers, the same architec-\ntures are used in both pre-training and ﬁne-tuning. The same pre-trained model parameters are used to initialize\nmodels for …[truncated for minimum disclosure]",
+   "text_full_length": 3335
+  },
+  {
+   "evidence_id": "fd01ceb44bae",
+   "document_id": "t5",
+   "page": 24,
+   "text": "randomly to satisfy these specified parameters. For example, if we are processing a sequence\nof 500 tokens and we have specified that 15% of tokens should be corrupted and that there\nshould be 25 total spans, then the total number of corrupted tokens would be 500×0.15 = 75\nand the average span …[truncated for minimum disclosure]",
+   "text_full_length": 2451
+  },
+  {
+   "evidence_id": "2ca20151e743",
+   "document_id": "bert",
+   "page": 5,
+   "text": "[CLS]\nhe\nlikes\nplay\n##ing\n[SEP]\nmy\ndog\nis\ncute\n[SEP]\nInput\nE[CLS]\nEhe\nElikes\nEplay\nE##ing\nE[SEP]\nEmy\nEdog\nEis\nEcute\nE[SEP]\nToken\nEmbeddings\nEA\nEB\nEB\nEB\nEB\nEB\nEA\nEA\nEA\nEA\nEA\nSegment\nEmbeddings\nE0\nE6\nE7\nE8\nE9\nE10\nE1\nE2\nE3\nE4\nE5\nPosition\nEmbeddings\nFigure 2: BERT input representation. The input …[truncated for minimum disclosure]",
+   "text_full_length": 3847
+  },
+  {
+   "evidence_id": "120ebc6125f3",
+   "document_id": "t5",
+   "page": 21,
+   "text": "with maximum likelihood to predict the target sequence. We provide illustrative examples\nof many of the objectives we consider in Table 3.\n3.3.1 Disparate High-Level Approaches\nTo begin with, we compare three techniques that are inspired by commonly-used objectives\nbut differ significantly in their …[truncated for minimum disclosure]",
+   "text_full_length": 2049
+  },
+  {
+   "evidence_id": "3a3686edc815",
+   "document_id": "bert",
+   "page": 13,
+   "text": "E1\nE2\n EN\n...\nFigure 3: Differences in pre-training model architectures. BERT uses a bidirectional Transformer. OpenAI GPT\nuses a left-to-right Transformer. ELMo uses the concatenation of independently trained left-to-right and right-to-\nleft LSTMs to generate features for downstream tasks. Among …[truncated for minimum disclosure]",
+   "text_full_length": 3468
+  },
+  {
+   "evidence_id": "3fe919a134c9",
+   "document_id": "t5",
+   "page": 41,
+   "text": "Model\nGLUE\nCNNDM\nSQuAD\nSGLUE\nEnDe\nEnFr\nEnRo\n⋆Baseline\n83.28\n19.24\n80.88\n71.36\n26.98\n39.82\n27.65\nBaseline-1T\n84.80\n19.62\n83.01\n73.90\n27.46\n40.30\n28.34\nT5-Base\n85.97\n20.90\n85.44\n75.64\n28.37\n41.37\n28.98\nTable 15: Performance comparison of T5-Base to our baseline experimental setup used in\nthe rest of …[truncated for minimum disclosure]",
+   "text_full_length": 2721
+  },
+  {
+   "evidence_id": "fe5eb4969e47",
+   "document_id": "bert",
+   "page": 7,
+   "text": "Ours\nBERTBASE (Single)\n80.8 88.5\n-\n-\nBERTLARGE (Single)\n84.1 90.9\n-\n-\nBERTLARGE (Ensemble)\n85.8 91.8\n-\n-\nBERTLARGE (Sgl.+TriviaQA)\n84.2 91.1 85.1 91.8\nBERTLARGE (Ens.+TriviaQA) 86.2 92.2 87.4 93.2"
+  },
+  {
+   "evidence_id": "20ea8f8f2ef5",
+   "document_id": "bert",
+   "page": 14,
+   "text": "A.4\nComparison of BERT, ELMo ,and\nOpenAI GPT\nHere we studies the differences in recent popular\nrepresentation learning models including ELMo,\nOpenAI GPT and BERT. The comparisons be-\ntween the model architectures are shown visually\nin Figure 3. Note that in addition to the architec-\nture …[truncated for minimum disclosure]",
+   "text_full_length": 389
+  },
+  {
+   "evidence_id": "70f2119fc9f9",
+   "document_id": "t5",
+   "page": 20,
+   "text": "the encoder and decoder stacks significantly hurt performance. Concurrent work (Lan et al.,\n2019) also found that sharing parameters across Transformer blocks can be an effective means\nof lowering the total parameter count without sacrificing much performance. XLNet also\nbears some resemblance to …[truncated for minimum disclosure]",
+   "text_full_length": 2057
+  },
+  {
+   "evidence_id": "f6dae373ec1d",
+   "document_id": "t5",
+   "page": 38,
+   "text": "Beam search All of our previous results were reported using greedy decoding. For tasks\nwith long output sequences, we found improved performance from using beam search\n(Sutskever et al., 2014). Specifically, we use a beam width of 4 and a length penalty\nof α = 0.6 (Wu et al., 2016) for the WMT …[truncated for minimum disclosure]",
+   "text_full_length": 3462
+  },
+  {
+   "evidence_id": "b96454dd043e",
+   "document_id": "t5",
+   "page": 40,
+   "text": "was created over three years ago, and most recent improvements have only increased the\nstate-of-the-art by a fraction of a percentage point. We note that when results are reported\non the test set, they are typically based on an ensemble of models and/or leverage external\ndata sets (e.g. TriviaQA …[truncated for minimum disclosure]",
+   "text_full_length": 3857
+  },
+  {
+   "evidence_id": "b95cbac2591e",
+   "document_id": "t5",
+   "page": 42,
+   "text": "Unsupervised objectives Overall, we found that most “denoising” objectives, which train\nthe model to reconstruct randomly corrupted text, performed similarly in the text-to-\ntext setup. As a result, we suggest using objectives that produce short target sequences\nso that unsupervised pre-training is …[truncated for minimum disclosure]",
+   "text_full_length": 3305
+  },
+  {
+   "evidence_id": "547344e298fe",
+   "document_id": "bert",
+   "page": 14,
+   "text": "The most comparable existing pre-training\nmethod to BERT is OpenAI GPT, which trains a\nleft-to-right Transformer LM on a large text cor-\npus. In fact, many of the design decisions in BERT\nwere intentionally made to make it as close to\nGPT as possible so that the two methods could be\nminimally …[truncated for minimum disclosure]",
+   "text_full_length": 572
+  }
+ ],
+ "C07": [
+  {
+   "evidence_id": "b3caa6b765be",
+   "document_id": "dc201",
+   "page": 6,
+   "text": "08/FAQ & Troubleshooting\nProblem\nSolution\nCause\nDifferences in copy number can cause significant variations in \nplasmid yield. For low-copy plasmids (SuperCos, pWE15, \npBR322, pACYC and its derivatives, pSC101 and its derivatives) \nor plasmids with large inserts (>10 kb), use higher volumes of …[truncated for minimum disclosure]",
+   "text_full_length": 2585
+  },
+  {
+   "evidence_id": "b95598434713",
+   "document_id": "dc201",
+   "page": 3,
+   "text": "01/Product Description\nVAMNE Magnetic EndoFree Plasmid Mini Kit is designed for the extraction of plasmid DNA from\n1 - 5 ml of overnight bacterial cultures. It employs an optimized alkaline lysis method to efficiently\nlyse cells, followed by purification using uniquely embedded superparamagnetic, …[truncated for minimum disclosure]",
+   "text_full_length": 1425
+  },
+  {
+   "evidence_id": "986ac1908066",
+   "document_id": "dc201",
+   "page": 4,
+   "text": "06/Notes\nBefore use, add the entire volume of RNase A Solution provided in the kit to Buffer AP1.\nMix thoroughly and store at 2 ~ 8°C. The solution can be stably stored for up to\n6 months.\nBuffer AP2 may precipitate at low temperatures. Check for any crystal formation before\nuse. If crystals are …[truncated for minimum disclosure]",
+   "text_full_length": 2265
+  },
+  {
+   "evidence_id": "b85e1733a84c",
+   "document_id": "dc201",
+   "page": 6,
+   "text": "For low-copy plasmids (SuperCos, pWE15, \npBR322, pACYC and its derivatives, pSC101 and its derivatives) \nor plasmids with large inserts (>10 kb), use higher volumes of \nbacterial cultures and scale up the volumes of Buffer AP1, Buffer \nAP2, and Buffer AP3 accordingly. 1."
+  },
+  {
+   "evidence_id": "3c2f7f4c2b5a",
+   "document_id": "dc201",
+   "page": 3,
+   "text": "02/Components\nComponents\nDC201-C1\n(1 × 96 T)\nRNase A Solution \nBuffer AP1\nBuffer AP2\nBuffer AP3\nBinding Plate\nBeads Plate\nWash 1 Plate\nWash 2 Plate\nElution Plate\n750 μl\n28 ml\n28 ml\n28 ml\n1\n1\n1\n2\n1\nRNase A Solution: Remove RNA\nBuffer AP1: Suspend bacteria\nBuffer AP2: Lyse bacteria\nBuffer AP3: …[truncated for minimum disclosure]",
+   "text_full_length": 363
+  },
+  {
+   "evidence_id": "a8d6cb79b556",
+   "document_id": "dc201",
+   "page": 4,
+   "text": "06/Notes\nBefore use, add the entire volume of RNase A Solution provided in the kit to Buffer AP1. Mix thoroughly and store at 2 ~ 8°C. The solution can be stably stored for up to\n6 months. Buffer AP2 may precipitate at low temperatures. Check for any crystal formation before\nuse."
+  },
+  {
+   "evidence_id": "a4b87f5ddbef",
+   "document_id": "dc201",
+   "page": 4,
+   "text": "The yield and quality of plasmid DNA depend on several factors, including plasmid copy\nnumber, host strain, inoculation volume, culture medium, and the type of antibiotic used. Avoid direct contact with Buffer AP2 and Buffer AP3."
+  },
+  {
+   "evidence_id": "ec32357e99d5",
+   "document_id": "dc201",
+   "page": 6,
+   "text": "coli strains, such as DH5α, TOP10, and XL10, \netc. 3. Host strain \ndifferences\nLow yield\nExcessive bacterial cell input can lead to incomplete lysis and \nlow plasmid yield. It is recommended to select an appropriate \namount of bacterial cultures and matching solution volume. 4. Incomplete lysis\n5."
+  },
+  {
+   "evidence_id": "08b31334bc6c",
+   "document_id": "dc201",
+   "page": 2,
+   "text": "02\n01/Product Description\n02/Components\n03/Storage\n.............................................................................................. 02\n04/Applications\n............................................................................"
+  },
+  {
+   "evidence_id": "d81108757826",
+   "document_id": "dc201",
+   "page": 2,
+   "text": ".................................................................................. 02\n............................................................................................. 02\n..................................................................................................... 02\n01/Product …[truncated for minimum disclosure]",
+   "text_full_length": 1335
+  },
+  {
+   "evidence_id": "2985400ffaa7",
+   "document_id": "dc201",
+   "page": 3,
+   "text": "The purified plasmid DNA is suitable for a wide range\nof downstream applications, including transfection in various cell types, enzyme digestion, PCR,\nsequencing, and ligation experiments."
+  },
+  {
+   "evidence_id": "6f8df2cf2b1a",
+   "document_id": "dc201",
+   "page": 5,
+   "text": "Adsorption\nMixing\nWaiting\nMixing\nSpeed\nMixing\nPosition\nAdsorption\nAdsorption\nMixing\nAmplitude\nTemperature\nVolume\nPlate \nPosition\nTime\n(min)\nTime\n(min)\nSpeed\nPosition\n(sec)\nBeads\n1,000\nBinding\nWash 1\nWash 2\nWash 2\nElution\nBeads\nHeating settings: heating and action start at the same time; Adsorption …[truncated for minimum disclosure]",
+   "text_full_length": 467
+  },
+  {
+   "evidence_id": "fae4b7ce0d9c",
+   "document_id": "dc201",
+   "page": 5,
+   "text": "Add 250 μl Buffer AP3 and immediately invert the tube gently 15 - 20 times until the blue color\ncompletely disappears. At this time, white flocculent precipitates should form. Centrifuge at\n12,000 rpm (13,400 × g) for 5 min.\n▲After adding Buffer AP3, gently invert the tube immediately to mix …[truncated for minimum disclosure]",
+   "text_full_length": 1847
+  }
+ ],
+ "A14": [
+  {
+   "evidence_id": "a524fcc99e30",
+   "document_id": "bert",
+   "page": 6,
+   "text": "System\nMNLI-(m/mm)\nQQP\nQNLI\nSST-2\nCoLA\nSTS-B\nMRPC\nRTE\nAverage\n392k\n363k\n108k\n67k\n8.5k\n5.7k\n3.5k\n2.5k\n-\nPre-OpenAI SOTA\n80.6/80.1\n66.1\n82.3\n93.2\n35.0\n81.0\n86.0\n61.7\n74.0\nBiLSTM+ELMo+Attn\n76.4/76.1\n64.8\n79.8\n90.4\n36.0\n73.3\n84.9\n56.8\n71.0\nOpenAI …[truncated for minimum disclosure]",
+   "text_full_length": 4444
+  },
+  {
+   "evidence_id": "80cc13371c73",
+   "document_id": "llama",
+   "page": 11,
+   "text": "GPU Type\nGPU Power\nGPU-hours\nTotal power\nCarbon emitted\nconsumption\nconsumption\n(tCO2eq)\nOPT-175B\nA100-80GB\n400W\n809,472\n356 MWh\n137\nBLOOM-175B\nA100-80GB\n400W\n1,082,880\n475 MWh\n183\nLLaMA-7B\nA100-80GB\n400W\n82,432\n36 MWh\n14\nLLaMA-13B\nA100-80GB\n400W\n135,168\n59 …[truncated for minimum disclosure]",
+   "text_full_length": 4264
+  },
+  {
+   "evidence_id": "7d1c06b053ac",
+   "document_id": "bert",
+   "page": 3,
+   "text": "Unlabeled Sentence A and B Pair\nPre-training\nFine-Tuning\nFigure 1: Overall pre-training and ﬁne-tuning procedures for BERT. Apart from output layers, the same architec-\ntures are used in both pre-training and ﬁne-tuning. The same pre-trained model parameters are used to initialize\nmodels for …[truncated for minimum disclosure]",
+   "text_full_length": 3335
+  },
+  {
+   "evidence_id": "d03fcaf89806",
+   "document_id": "llama",
+   "page": 3,
+   "text": "params\ndimension\nn heads\nn layers\nlearning rate\nbatch size\nn tokens\n6.7B\n4096\n32\n32\n3.0e−4\n4M\n1.0T\n13.0B\n5120\n40\n40\n3.0e−4\n4M\n1.0T\n32.5B\n6656\n52\n60\n1.5e−4\n4M\n1.4T\n65.2B\n8192\n64\n80\n1.5e−4\n4M\n1.4T\nTable 2: Model sizes, architectures, and optimization hyper-parameters.\nOverall, our entire training …[truncated for minimum disclosure]",
+   "text_full_length": 3468
+  },
+  {
+   "evidence_id": "3d3af642280d",
+   "document_id": "llama",
+   "page": 7,
+   "text": "Humanities\nSTEM\nSocial …[truncated for minimum disclosure]",
+   "text_full_length": 3118
+  },
+  {
+   "evidence_id": "2ca20151e743",
+   "document_id": "bert",
+   "page": 5,
+   "text": "[CLS]\nhe\nlikes\nplay\n##ing\n[SEP]\nmy\ndog\nis\ncute\n[SEP]\nInput\nE[CLS]\nEhe\nElikes\nEplay\nE##ing\nE[SEP]\nEmy\nEdog\nEis\nEcute\nE[SEP]\nToken\nEmbeddings\nEA\nEB\nEB\nEB\nEB\nEB\nEA\nEA\nEA\nEA\nEA\nSegment\nEmbeddings\nE0\nE6\nE7\nE8\nE9\nE10\nE1\nE2\nE3\nE4\nE5\nPosition\nEmbeddings\nFigure 2: BERT input representation. The input …[truncated for minimum disclosure]",
+   "text_full_length": 3847
+  },
+  {
+   "evidence_id": "3a3686edc815",
+   "document_id": "bert",
+   "page": 13,
+   "text": "E1\nE2\n EN\n...\nFigure 3: Differences in pre-training model architectures. BERT uses a bidirectional Transformer. OpenAI GPT\nuses a left-to-right Transformer. ELMo uses the concatenation of independently trained left-to-right and right-to-\nleft LSTMs to generate features for downstream tasks. Among …[truncated for minimum disclosure]",
+   "text_full_length": 3468
+  },
+  {
+   "evidence_id": "8d7ccb10b1c4",
+   "document_id": "bert",
+   "page": 8,
+   "text": "5.1\nEffect of Pre-training Tasks\nWe demonstrate the importance of the deep bidi-\nrectionality of BERT by evaluating two pre-\ntraining objectives using exactly the same pre-\ntraining data, ﬁne-tuning scheme, and hyperpa-\nrameters as BERTBASE:"
+  },
+  {
+   "evidence_id": "841de783e75b",
+   "document_id": "llama",
+   "page": 2,
+   "text": "Table 1: Pre-training data. Data mixtures used for pre-\ntraining, for each subset we list the sampling propor-\ntion, number of epochs performed on the subset when\ntraining on 1.4T tokens, and disk size. The pre-training\nruns on 1T tokens have the same sampling proportion."
+  },
+  {
+   "evidence_id": "01ce0cf8d98e",
+   "document_id": "bert",
+   "page": 15,
+   "text": "Figure 4: Illustrations of Fine-tuning BERT on Different Tasks.\nSST-2\nThe Stanford Sentiment Treebank is a\nbinary single-sentence classiﬁcation task consist-\ning of sentences extracted from movie reviews\nwith human annotations of their sentiment (Socher\net al., 2013).\nfor whether the sentences in …[truncated for minimum disclosure]",
+   "text_full_length": 1847
+  },
+  {
+   "evidence_id": "7b117c1b67ee",
+   "document_id": "llama",
+   "page": 2,
+   "text": "Our training dataset is a mixture of several sources,\nreported in Table 1, that cover a diverse set of do-\nmains. For the most part, we reuse data sources\nthat have been leveraged to train other LLMs, with\nthe restriction of only using data that is publicly\navailable, and compatible with open …[truncated for minimum disclosure]",
+   "text_full_length": 404
+  },
+  {
+   "evidence_id": "537c9f3f24c7",
+   "document_id": "llama",
+   "page": 3,
+   "text": "Overall, our entire training dataset contains\nroughly 1.4T tokens after tokenization. For most of\nour training data, each token is used only once dur-\ning training, with the exception of the Wikipedia\nand Books domains, over which we perform ap-\nproximately two epochs."
+  },
+  {
+   "evidence_id": "545787c5abc1",
+   "document_id": "llama",
+   "page": 4,
+   "text": "BoolQ\nPIQA\nSIQA HellaSwag WinoGrande …[truncated for minimum disclosure]",
+   "text_full_length": 3254
+  },
+  {
+   "evidence_id": "9f381f1792ec",
+   "document_id": "llama",
+   "page": 2,
+   "text": "Gutenberg and Books3 [4.5%]. We include\ntwo book corpora in our training dataset: the Guten-\nberg Project, which contains books that are in the\npublic domain, and the Books3 section of TheP-\nile (Gao et al., 2020), a publicly available dataset\nfor training large language models."
+  },
+  {
+   "evidence_id": "0acc88bdb605",
+   "document_id": "bert",
+   "page": 3,
+   "text": "Dur-\ning pre-training, the model is trained on unlabeled\ndata over different pre-training tasks. For ﬁne-\ntuning, the BERT model is ﬁrst initialized with\nthe pre-trained parameters, and all of the param-\neters are ﬁne-tuned using labeled data from the\ndownstream tasks."
+  }
+ ],
+ "_disclosure_note": "The public artifact contains only the minimum evidence excerpts required for the released experiment; original source documents are not redistributed. Each excerpt is truncated to <=300 chars with document_id/page provenance preserved. Full-length texts were used in the original internal runs; exact reproduction of model outputs may require the original sources."
+}

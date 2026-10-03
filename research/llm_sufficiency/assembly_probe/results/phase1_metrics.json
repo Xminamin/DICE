@@ -1,0 +1,19 @@
+{
+ "experiment": "Assembly Standard Probe (Phase 1)",
+ "design": "4 cases × frozen pack (hash-locked, all variants share identical pack) × 4 variants + 6 ASSEMBLY repeats = 22 LLM calls; production assess_sufficiency unmodified; raw outputs fully archived",
+ "P_SUFFICIENT_DIRECT": "4/4",
+ "P_SUFFICIENT_ASSEMBLY": "4/10",
+ "P_SUFFICIENT_MIXED": "3/4",
+ "P_INSUFFICIENT_NEGATIVE": "4/4",
+ "OVER_CONSERVATIVE_runs": 7,
+ "FALSE_SUFFICIENCY_runs": 0,
+ "SUFFICIENCY_OUTPUT_INSTABILITY": "B11-ASSEMBLY: SUFFICIENT(rep1) -> INSUFFICIENT(rep2,rep3), identical pack+question",
+ "REASON_PATTERN": "7/7 assembly-rejections contain 'does not explicitly (state/compare/provide)'; A14 adds 'different units'",
+ "assembly_by_case": {
+  "A09": "3/3 INSUFFICIENT (stable aversion)",
+  "A14": "1/1 INSUFFICIENT",
+  "B11": "1 SUFF / 2 INSUFF (label instability)",
+  "C07": "3/3 SUFFICIENT (no aversion)"
+ },
+ "verdict": "ASSEMBLY_AVERSION_SUPPORTED (DIRECT 4/4 vs ASSEMBLY 1/4 case-level; heterogeneous: aversion stable in A09/A14, absent in C07, unstable in B11)"
+}
